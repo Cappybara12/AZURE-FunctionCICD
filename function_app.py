@@ -3,6 +3,7 @@ from azure.cosmos import CosmosClient
 
 def main(req: func.HttpRequest) -> func.HttpResponse:
     endpoint = "https://portfoliodbmlsa.table.cosmos.azure.com:443/"
+    #need to find key
     key = ""
     database_name = "portfoliodbmlsa"
 

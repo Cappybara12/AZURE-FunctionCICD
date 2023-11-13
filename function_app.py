@@ -13,7 +13,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     database = client.get_database_client(database_name)
     container = database.get_container_client(container_name)
 
-    # Retrieve and increment the visitor count
+    # Retrieve and increment the visitor counts
     item = container.read_item('uniqueCounter', 'uniqueCounter')
     count = item['count']
 

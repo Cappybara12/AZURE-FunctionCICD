@@ -70,6 +70,6 @@ jobs:
           app-name: 'mlsaportfolio'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F352A2D1E9B74FC08B6E06070595F268 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EEF3A0D010EA4C128C837B7C8982AD1D }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true

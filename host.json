@@ -8,7 +8,7 @@
       "routePrefix": "",
       "cors": {
         "allowedOrigins": [
-          "https://your-web-app-domain.com"
+          "https://white-smoke-038534b0f.4.azurestaticapps.net/"
         ],
         "allowedMethods": [
           "GET",

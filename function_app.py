@@ -1,7 +1,7 @@
 import azure.functions as func
 from azure.cosmos import CosmosClient
 
-def main(req: func.HttpRequest) -> func.HttpResponse:
+def get_visitor_count(req: func.HttpRequest) -> func.HttpResponse:
     headers = {
         'Access-Control-Allow-Origin': '*',  # or specify your allowed origins
         'Access-Control-Allow-Methods': 'GET, OPTIONS',  # Add any other needed methods

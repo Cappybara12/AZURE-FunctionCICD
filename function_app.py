@@ -4,9 +4,8 @@ from azure.cosmos import CosmosClient
 def main(req: func.HttpRequest) -> func.HttpResponse:
     endpoint = "https://portfoliodbmlsa.table.cosmos.azure.com:443/"
     #need to find key
-    key = ""
+    key = "UUEUax1TywwbwKzPSolleubVvCKS1e2TihbPTimmyJMGTjKp0hbra39O25lsoygrFvKB4wPnm0vwACDbqZTn0A=="
     database_name = "portfoliodbmlsa"
-
     container_name = "table1"
 
     # Create Cosmos DB client
